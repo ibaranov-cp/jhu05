@@ -30,7 +30,7 @@ roslaunch jhu05_moveit ur5.launch
 At this point, it’s useful to ensure that the user computer/laptop is able to successfully communicate with the husky. In the same terminal windows as used above to export ROS_IP, ensure you have a catkin_ws folder, and clone this Github folder. We also install pre-requisite husky packages. Lastly we source it, and launch an rviz viewer, which should show the correct orientation of the arm and gripper, along with accessories on the Husky top plate.
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/ibaranov-cp/JHU05.git
+git clone https://github.com/ibaranov-cp/jhu05.git
 cd ..
 sudo apt-get install ros-indigo-husky-viz
 rosdep install --from-paths src --ignore-src --rosdistro=indigo -y
