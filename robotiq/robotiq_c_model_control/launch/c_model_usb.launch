@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="robotiq_c_model_control" type="CModelRtuNode.py" args="/dev/robotiq" name="CModelRtuNode" output="screen" />
+</launch>
